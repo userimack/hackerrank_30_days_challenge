@@ -1,0 +1,5 @@
+M = float(input())
+T = int(input())
+X = int(input())
+f = int(M+((M*T)/100)+((M*X)/100))
+print("The final price of the meal is $%d."% f)
